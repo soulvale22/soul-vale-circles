@@ -139,6 +139,21 @@ h1.script {
   .pillar svg { width: 40px; height: 40px; }
 }
 
+@media (max-width: 480px) {
+  .pillars {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 28px;
+    column-gap: 16px;
+  }
+  .pillar {
+    flex: 1 1 27%;
+    max-width: 33%;
+  }
+  .pillar svg { width: 30px; height: 30px; }
+  .pillar span { font-size: 14px; }
+}
+
 .quote {
   border-top: 1px solid var(--gold);
   border-bottom: 1px solid var(--gold);
