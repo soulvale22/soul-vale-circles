@@ -17,9 +17,9 @@ body {
   margin: 0;
   background: var(--cream);
   color: var(--forest);
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: 'Lora', Georgia, serif;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
 }
@@ -99,8 +99,8 @@ h1.script {
 }
 
 .intro { padding-top: 20px; }
-.intro .lede { font-size: 24px; font-style: italic; color: var(--forest); font-weight: 500; }
-.intro p:not(.lede) { font-size: 21px; color: var(--forest); }
+.intro .lede { font-size: 24px; font-style: italic; color: var(--forest); font-weight: 600; }
+.intro p:not(.lede) { font-size: 20px; color: var(--forest); font-weight: 500; }
 
 .pillars {
   display: flex;
@@ -128,14 +128,14 @@ h1.script {
   stroke-linejoin: round;
 }
 .pillar span {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.01em;
   color: var(--forest);
 }
 
 @media (min-width: 560px) {
-  .pillar span { font-size: 17px; }
+  .pillar span { font-size: 18px; }
   .pillar svg { width: 40px; height: 40px; }
 }
 
@@ -145,14 +145,15 @@ h1.script {
 }
 .quote p {
   font-style: italic;
-  font-size: 22px;
+  font-size: 25px;
+  font-weight: 600;
   margin: 0;
   color: var(--forest);
 }
 
 .circles h2, .hosts h2 {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 600;
+  font-family: 'Lora', serif;
+  font-weight: 700;
   font-size: 30px;
   margin: 0 0 28px;
 }
@@ -163,8 +164,8 @@ h1.script {
   padding: 28px 24px;
   margin: 0 0 20px;
 }
-.circle-date { font-size: 25px; font-weight: 600; margin: 0 0 6px; }
-.circle-meta { margin: 0 0 18px; color: var(--forest); font-size: 19px; }
+.circle-date { font-size: 25px; font-weight: 700; margin: 0 0 6px; }
+.circle-meta { margin: 0 0 18px; color: var(--forest); font-size: 19px; font-weight: 500; }
 
 .btn {
   display: inline-block;
