@@ -54,7 +54,7 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
 
 section { padding: 56px 0; text-align: center; }
 
-.hero { padding-top: 36px; padding-bottom: 28px; }
+.hero { padding-top: 56px; padding-bottom: 28px; }
 .eyebrow {
   letter-spacing: 0.3em;
   text-transform: uppercase;
